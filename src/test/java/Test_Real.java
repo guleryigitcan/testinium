@@ -17,8 +17,8 @@ public class Test_Real extends BaseTest {
     @Order(1)
     public void login()  {
         driver.get("https://www.gittigidiyor.com/uye-girisi?s=1");
-        driver.findElement(By.id("L-UserNameField")).sendKeys("guleryigitcan@gmail.com");
-        driver.findElement(By.id("L-PasswordField")).sendKeys("5652329yigo");
+        driver.findElement(By.id("L-UserNameField")).sendKeys(/* Your email*/);
+        driver.findElement(By.id("L-PasswordField")).sendKeys(/* Your password*/);
         driver.findElement(By.xpath("//*[@id=\"gg-login-enter\"]")).click();
 
 
